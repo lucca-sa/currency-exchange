@@ -133,3 +133,34 @@ button:active {
     opacity: .5;
 }
 
+
+
+@media screen and (max-width: 900px) {
+    
+    .gif-principal {
+        position: absolute;
+        top: 1px;
+        width: 100px;
+    }
+    
+    main {
+        flex-direction: column;
+        padding: 20px;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-results {
+        margin: 0;
+    }
+
+    button {
+        margin-bottom: 50px;
+        border-radius: 20px;
+    }
+
+}
+
