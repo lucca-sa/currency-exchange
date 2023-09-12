@@ -1,0 +1,122 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./assets/bg.jpg);
+    background-size: 1920px 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gif-principal {
+    width: 250px;
+    margin: 40px 0 80px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    background: #F4F4F4;
+    padding: 10px 24px 10px 24px;
+}
+
+select,
+input {
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    width: 327px;
+    height: 38px;
+    color: #555;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    cursor: pointer;
+    /* appearance: none; SERVE PARA TIRAR AS SETINHAS DA SELEÇÃO */
+}
+
+label {
+    margin-top: 24px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+button {
+    width: 327px;
+    height: 38px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background: #772FD3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.section-inputs {
+    padding-top: 20px;
+}
+
+.section-results {
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    padding: 12px;
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.div-a-converter,
+.div-convertida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.valor-resultado {
+    color: #555;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.seta {
+    margin: 15px 0;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
